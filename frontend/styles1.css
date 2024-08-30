@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.form-full {
+    width: 100%;
+}
+
+input[type="text"], input[type="password"], input[type="date"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px; /* Adjust height based on your preference */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
+
+.customerDetails {
+    border: solid 2px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.serial-number {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 18px;
+    /* background-color: aqua; */
+    align-items: center;
+    margin-left: 85%;
+    font-weight: bold;
+}
+
+/* .serial-number label {
+    margin-right: 10px;
+} */
+
+.serial-number input {
+    background: none;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: bold;
+}   

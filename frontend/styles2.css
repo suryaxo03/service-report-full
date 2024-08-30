@@ -1,0 +1,89 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Home Icon Link */
+.home-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.home-icon:hover {
+    color: #0056b3;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Form Styles */
+.report-form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.report-form .form-group {
+    margin-bottom: 15px;
+}
+
+.report-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.report-form input[type="text"],
+.report-form input[type="date"],
+.report-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.report-form textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+/* Button Styles */
+.report-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.report-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .report-form {
+        width: 95%;
+    }
+}
